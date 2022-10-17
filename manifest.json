@@ -1,0 +1,14 @@
+{
+    "name": "TG Tools",
+    "version": "1.0.1",
+    "description": "Boîte à outil",
+    "manifest_version": 3,
+    "author": "Rom13",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "TG Official Tools"
+    },
+    "icons": {
+        "50": "img/logo.png"
+    }
+}

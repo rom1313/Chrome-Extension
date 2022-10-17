@@ -1,0 +1,53 @@
+html {
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 500px;
+    border-radius: 15px;
+    height: 600px;
+}
+
+h1,
+p {
+    color: brown;
+}
+
+#contenuchat>p {
+    font-size: 40px;
+
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #cf0000 0%, #ff0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+
+    ;
+}
+
+#contenuchat {
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black inset;
+    box-sizing: border-box;
+    max-height: fit-content;
+    max-width: 300px;
+    background: linear-gradient(rgb(97, 97, 97) 20%, rgb(46, 46, 46) 90%);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+#logo{
+    margin-top: 25px;
+}
