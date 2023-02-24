@@ -7,6 +7,7 @@ html {
     width: 500px;
     border-radius: 15px;
     height: 600px;
+    user-select: none;
 }
 
 h1,
@@ -26,9 +27,7 @@ p {
     text-transform: uppercase;
     background: linear-gradient(to bottom, #cf0000 0%, #ff0000 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
-
-    ;
+    -webkit-text-fill-color: transparent;
 }
 
 #contenuchat {
@@ -48,6 +47,10 @@ p {
     padding-right: 20px;
     padding-top: 0;
 }
-#logo{
+
+#logo {
     margin-top: 25px;
+}
+button{
+    margin: 10px;
 }
